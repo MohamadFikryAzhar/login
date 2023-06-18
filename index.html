@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Login Page</title>
+    <style>
+        .box1 {
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: gold;
+            width: 50%;
+            height: 100%;
+            opacity: 50%;
+            z-index: 1;
+        }
+
+        .background .logo {
+            position: absolute;
+            width: 110px;
+            top: 50%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+
+        .line {
+            position: absolute;
+            width: 427px;
+            height: 0px;
+            left: 75%;
+            top: 30%;
+            transform: translate(-50%, -50%);
+
+            border: 1px solid #F5F5F5;
+        }
+
+        .line1 {
+            position: absolute;
+            width: 427px;
+            height: 0px;
+            left: 75%;
+            top: 84%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #F5F5F5;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <img src="assets/image 15.png" class="background-img">
+        <div class="box1"></div>
+        <img src="assets/Group 697.svg" class="logo">
+    </div>
+    <div class="line"></div>
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="welcome-page">
+        <div class="welcome1">Welcome</div>
+        <div class="log-in">Log in into your exiting account</div>
+        <div class="e-mail">
+            <p>E-mail</p>
+            <input type="text" placeholder="examplexxx@gmail.com">
+        </div>
+        <div class="pass">
+            <p>Password</p>
+            <input type="password" placeholder="Password">
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="checkingbox">
+            <label for="checkingbox"></label>
+            <span>I agree to terms & conditions</span>
+        </div>
+        <button type="button" class="button">Log In</button>
+        <p class="forgot-pass">Forgot password?</p>
+        <p class="signin">Don't have an account? <span class="sign-up">Sign Up</span></p>
+    </div>
+</body>
+</html>
